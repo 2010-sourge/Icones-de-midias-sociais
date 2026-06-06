@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ícones de Redes Sociais</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#e5e5e5;
+    }
+
+    .social-icons{
+      display:flex;
+      gap:30px;
+    }
+
+    .social-icons a{
+      width:80px;
+      height:80px;
+      border-radius:50%;
+      background:#ececec;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      text-decoration:none;
+      font-size:35px;
+
+      box-shadow:
+        8px 8px 15px rgba(0,0,0,0.15),
+        -8px -8px 15px rgba(255,255,255,0.8);
+
+      transition:0.3s;
+    }
+
+    .social-icons a:hover{
+      transform:translateY(-8px);
+
+      box-shadow:
+        inset 5px 5px 10px rgba(0,0,0,0.1),
+        inset -5px -5px 10px rgba(255,255,255,0.8);
+    }
+
+    /* Cores dos ícones */
+    .facebook{
+      color:#1877f2;
+    }
+
+    .twitter{
+      color:#1da1f2;
+    }
+
+    .instagram{
+      color:#e1306c;
+    }
+
+    .github{
+      color:#111;
+    }
+
+    .youtube{
+      color:#ff0000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="social-icons">
+
+    <a href="#" class="facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#" class="twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="#" class="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="#" class="github">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="#" class="youtube">
+      <i class="fab fa-youtube"></i>
+    </a>
+
+  </div>
+
+</body>
+</html>
